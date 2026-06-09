@@ -1,11 +1,9 @@
-/*
-  The .ui.menu is needed otherwise there's a more specific rule from semantic UI
-  we use this rule to tweak the SCSS
-*/
+@import '../../styles/shared.scss';
+
 .ui.menu.top-menu {
   border: none;
   .logo {
-    width: 17rem;
+    width: $sidebar-left-width;
   }
   .nav-container {
     flex-grow: 1;
