@@ -6,7 +6,13 @@ To use it, you need to set up a [Youtube Data v3 API key](https://productioncode
 
 Provide your Youtube Data API key with the `REACT_APP_YT_API_KEY` environment variable.
 
+- (см.z3 AI3aSyD_mz32)
+
 Create a `.env.local` file (already gitignored) with
+
+Use old Node to run propperly `nvm use 14.21.3`
+
+`node -v` `nvm ls`
 
 `npm install`
 
